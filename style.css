@@ -1,0 +1,24 @@
+#bodi{
+    background-size: 100%;
+}
+#encabezado{
+    font-size: 25px !important;
+    font-family: cursive;
+}
+
+.btn-info:hover{
+    background-color: rgb(52, 255, 187);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+}
+
+canvas{
+    animation-name:example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow:1px 1px 50px rgb(29, 202, 255);}
+    to {box-shadow:1px 1px 50px rgb(255, 51, 15);}
+}
